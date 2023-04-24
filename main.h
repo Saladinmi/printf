@@ -15,23 +15,30 @@
 #define S_LONG 2
 #define S_SHORT 1
 /**
- * struct fmt - Struct op
- * @fmt: The format.
- * @fn: The function associated.
- **/
+* struct fmt - Struct op
+* @fmt: The format.
+* @fn: The function associated.
+**/
 struct fmt
 {
 	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
 };
 /**
+<<<<<<< HEAD
  * typedef struct fmt fmt_t - Struct op
  * @fmt: The format.
  * @fm_t: The function associated.
  **/
+=======
+* typedef struct fmt fmt_t - Struct op
+* @fmt: The format.
+* @fm_t: The function associated.
+* /
+>>>>>>> 16328a09d8488248d477a1e672aafa3adedf12ff
 typedef struct fmt fmt_t;
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
-		va_list list, char buffer[], int flags, int width, int precision, int size);
+va_list list, char buffer[], int flags, int width, int precision, int size);
 
 
