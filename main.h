@@ -32,11 +32,22 @@ struct fmt
 
 
 /**
+<<<<<<< HEAD
+ * typedef struct fmt fmt_t - Struct op
+ * @fmt: The format.
+ * @fm_t: The function associated.
+ **/
+=======
 * typedef struct fmt fmt_t - Struct op
 *
 * @fmt: The format.
 * @fm_t: The function associated.
+<<<<<<< HEAD
 **/
+=======
+* /
+>>>>>>> 16328a09d8488248d477a1e672aafa3adedf12ff
+>>>>>>> 61838cd5466bc9cb443986171820d1a9827356dd
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
