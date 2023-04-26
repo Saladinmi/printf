@@ -98,7 +98,7 @@ int flags, int width, int precision, int size);
 
 /* Funcion to print memory address */
 int print_pointer(va_list types, char buffer[],
-int flags, int width, int precision, int size);
+		int flags, int width, int precision, int size);
 
 =======
 		va_list list, char buffer[], int flags, int width, int precision, int size);
